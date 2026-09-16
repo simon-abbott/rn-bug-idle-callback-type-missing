@@ -29,7 +29,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 24
 
       - name: Yarn Install
         run: yarn install
@@ -65,7 +65,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 24
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
@@ -91,12 +91,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: 24
 
       - name: Setup XCode
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: 16.2.0
+          xcode-version: 26.6.0
 
       - name: Yarn Install
         run: yarn install
